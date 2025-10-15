@@ -1,6 +1,9 @@
-streamlit>=1.36
-pandas>=2.2
-numpy>=1.26
-altair>=5.0
-requests>=2.31
-reportlab>=4.0
+# Minimal requirements
+
+requests
+responses
+rapidfuzz
+streamlit
+pandas
+altair
+

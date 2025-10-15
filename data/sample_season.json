@@ -1,0 +1,21 @@
+{
+  "weeks": 2,
+  "players": [
+    {"id": "p1", "name": "Player One", "position": "QB", "team": "NE", "weekly": [
+      {"week": 1, "stats": {"pass_yds": 250, "pass_tds": 2, "int": 1}},
+      {"week": 2, "stats": {"pass_yds": 300, "pass_tds": 3, "int": 0}}
+    ]},
+    {"id": "p2", "name": "Player Two", "position": "RB", "team": "DAL", "weekly": [
+      {"week": 1, "stats": {"rush_yds": 80, "rush_tds": 1}},
+      {"week": 2, "stats": {"rush_yds": 50, "rush_tds": 0}}
+    ]},
+    {"id": "p3", "name": "Player Three", "position": "WR", "team": "KC", "weekly": [
+      {"week": 1, "stats": {"rec": 5, "rec_yds": 70, "rec_tds": 1}},
+      {"week": 2, "stats": {"rec": 7, "rec_yds": 90, "rec_tds": 0}}
+    ]}
+  ],
+  "teams": [
+    {"id": "t1", "name": "Team A", "roster": ["p1","p2"], "starting": ["p1","p2"]},
+    {"id": "t2", "name": "Team B", "roster": ["p3"], "starting": ["p3"]}
+  ]
+}

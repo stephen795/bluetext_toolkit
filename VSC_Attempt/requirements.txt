@@ -1,9 +1,0 @@
-# Minimal requirements
-
-requests
-responses
-rapidfuzz
-streamlit
-pandas
-altair
-

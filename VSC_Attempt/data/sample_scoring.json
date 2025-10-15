@@ -1,0 +1,13 @@
+{
+  "pass_yds": 0.04,
+  "pass_tds": 4,
+  "int": -2,
+  "rush_yds": 0.1,
+  "rush_tds": 6,
+  "rec": 1,
+  "rec_yds": 0.1,
+  "rec_tds": 6
+  ,"reception_tiers": [
+    {"min": 5, "points": 1}
+  ]
+}

@@ -1,9 +1,7 @@
-# Minimal requirements
-
-requests
-responses
-rapidfuzz
 streamlit
 pandas
+numpy
 altair
-
+requests
+rapidfuzz
+reportlab
